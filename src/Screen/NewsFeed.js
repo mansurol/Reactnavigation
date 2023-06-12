@@ -4,7 +4,7 @@ import React from 'react'
 export default function NewsFeed() {
   return (
     <View>
-      <Text>NewsFeed</Text>
+      <Text style={{alignSelf:"center",padding:30}}>NewsFeed</Text>
     </View>
   )
 }
