@@ -1,20 +1,9 @@
 export default {
-    ONBOARD: "Onboard Screen",
-  
-    LOGIN: "Login",
-    REGISTER: "Register",
-    FORGOT_PASSWORD: "Forgot Password",
-  
-    HOME: "Home",
-    HOME_TAB: "Home Tab",
-    HOME_DRAWER: "Home Drawer",
+  ONBOARD: "Onboard Screen",
 
-    NOTIFICATION:"Notification",
+  LOGIN: "Login",
 
-    PROFILE:"Profile Screen",
-
-    NEWSFEED:"News Feed",
-    ARTICLE:"Articale"
-  
-  };
-  
+  ACTIVITY: "Activity",
+  ATTENDANCE: "Attendance",
+  ATTENDANCE_SUBMIT: "Done",
+};
