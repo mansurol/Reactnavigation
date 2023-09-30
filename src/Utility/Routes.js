@@ -6,4 +6,5 @@ export default {
   ACTIVITY: "Activity",
   ATTENDANCE: "Attendance",
   ATTENDANCE_SUBMIT: "Done",
+  SURVEYFORM: "Survey Form",
 };

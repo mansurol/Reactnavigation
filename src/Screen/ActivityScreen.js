@@ -67,6 +67,7 @@ export default function ActivityScreen() {
                 padding: 10,
                 margin: 5,
               }}
+              onPress={() => navigation.navigate(Routes.SURVEYFORM)}
             >
               <Text style={{ fontSize: 25, color: "white", fontWeight: "600" }}>
                 Survey Form

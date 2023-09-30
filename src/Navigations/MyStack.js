@@ -5,6 +5,7 @@ import Routes from "../Utility/Routes";
 import ActivityScreen from "../Screen/ActivityScreen";
 import Attendance from "../Screen/Attendance";
 import AttendanceSubmit from "../Screen/AttendanceSubmit";
+import SurveyForm from "../Screen/SurveyForm";
 
 const Stack = createStackNavigator();
 
@@ -25,7 +26,22 @@ function MyStack() {
       <Stack.Screen
         name={Routes.ATTENDANCE}
         component={Attendance}
-        options={{ headerShown: false }}
+        options={{
+          headerStyle: {
+            backgroundColor: "#B4C7E7",
+          },
+          headerTitle: "",
+        }}
+      />
+      <Stack.Screen
+        name={Routes.SURVEYFORM}
+        component={SurveyForm}
+        options={{
+          headerStyle: {
+            backgroundColor: "#B4C7E7",
+          },
+          headerTitle: "",
+        }}
       />
       <Stack.Screen
         name={Routes.ATTENDANCE_SUBMIT}

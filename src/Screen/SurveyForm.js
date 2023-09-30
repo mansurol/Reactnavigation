@@ -35,8 +35,8 @@ export default function SurveyForm() {
   const [cameraVisible, setCameraVisible] = useState(false);
   const [capturedPhoto, setCapturedPhoto] = useState(null);
   const cameraRef = useRef(null);
-  const navigation = useNavigation();
 
+  //camera-Two
   const handleSubmit = () => {
     if (
       shopName.trim() === "" ||
@@ -491,7 +491,7 @@ export default function SurveyForm() {
                   style={styles.buttonTwo}
                   onPress={() => setCameraVisible(true)}
                 >
-                  <Text style={styles.text}>shop Picture</Text>
+                  <Text style={styles.text}>shop Picture </Text>
                 </TouchableOpacity>
               )}
             </View>
@@ -561,6 +561,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: "white",
     textAlign: "center",
+    flexDirection: "row",
   },
   imageContainer: {
     flex: 0,

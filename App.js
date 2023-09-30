@@ -8,7 +8,7 @@ import SurveyForm from "./src/Screen/SurveyForm";
 export default function App() {
   return (
     <NavigationContainer>
-      <SurveyForm />
+      <MyStack />
     </NavigationContainer>
   );
 }
