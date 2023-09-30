@@ -15,8 +15,11 @@ import {
 
 import { FontAwesome } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
+import Routes from "../Utility/Routes";
+import { KeyboardAvoidingView } from "react-native";
 
 export default function SurveyForm() {
+  const navigation = useNavigation();
   const [shopName, setShopName] = useState("");
   const [shopAddress, setShopAddress] = useState("");
   const [shopOwnerName, setShopOwnerName] = useState("");
@@ -67,6 +70,7 @@ export default function SurveyForm() {
       console.log("SellingSpareParts:", SellingSpareParts);
       console.log("capturedPhoto:", capturedPhoto);
     }
+    navigation.navigate(Routes.ATTENDANCE_SUBMIT);
   };
 
   useEffect(() => {
@@ -78,7 +82,7 @@ export default function SurveyForm() {
 
   const toggleCamera = () => {
     setType(
-      type === Camera.Constants.Type.front
+      type === Camera.Constants.Type.back
         ? Camera.Constants.Type.back
         : Camera.Constants.Type.front
     );

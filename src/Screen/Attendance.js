@@ -22,7 +22,7 @@ export default function Attendance() {
   };
 
   const [hasCameraPermission, setHasCameraPermission] = useState(null);
-  const [type, setType] = useState(Camera.Constants.Type.back);
+  const [type, setType] = useState(Camera.Constants.Type.front);
   const [cameraVisible, setCameraVisible] = useState(false);
   const [capturedPhoto, setCapturedPhoto] = useState(null);
   const cameraRef = useRef(null);
