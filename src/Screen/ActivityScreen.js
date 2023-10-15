@@ -113,6 +113,27 @@ export default function ActivityScreen() {
                 Corporate Activation
               </Text>
             </TouchableOpacity>
+
+            <TouchableOpacity
+              style={{
+                height: 50,
+                width: "80%",
+                backgroundColor: "red",
+                borderWidth: 1,
+                borderColor: "black",
+                marginHorizontal: 10,
+                justifyContent: "center",
+                alignSelf: "center",
+                borderRadius: 7,
+                padding: 10,
+                margin: 5,
+              }}
+              onPress={() => navigation.navigate(Routes.GEOLOCTION)}
+            >
+              <Text style={{ fontSize: 25, color: "white", fontWeight: "600" }}>
+                MapView
+              </Text>
+            </TouchableOpacity>
           </View>
         </SafeAreaView>
       </View>

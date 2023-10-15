@@ -7,4 +7,5 @@ export default {
   ATTENDANCE: "Attendance",
   ATTENDANCE_SUBMIT: "Done",
   SURVEYFORM: "Survey Form",
+  GEOLOCTION: "Map",
 };

@@ -4,6 +4,7 @@ import MyStack from "./src/Navigations/MyStack";
 import { NavigationContainer } from "@react-navigation/native";
 import Attendance from "./src/Screen/Attendance";
 import SurveyForm from "./src/Screen/SurveyForm";
+import GeoLocation from "./src/Screen/GeoLocation";
 
 export default function App() {
   return (
